@@ -1,0 +1,123 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+    .top-email {
+        font-size: 13px;
+    }
+    .top-phone {
+        font-size: 17px;
+    }
+    .slider .slide h2 {
+        font-size: 40px;
+    }
+    .slider .slide p {
+        font-size: 14px;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+    .top-pannel {
+        padding: 10px 0 30px;
+    }
+    .logo img {
+        width: 100px;
+        margin-top: 8px;
+    }
+    .slider .slide {
+        padding-top: 130px;
+    }
+    .slide-content {
+        padding-top: 40px;
+    }
+    .slider-nav {
+        top: 115px;
+    }
+    .sect-universal h2 {
+        float: left;
+        margin-top: 0;
+        margin-bottom: 20px;
+        margin-right: 20px;
+    }
+    .first-col .button {
+        float: left;
+        margin-bottom: 30px;
+    }
+    .developer {
+        margin-top: 80px;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    /*Disable Animation on Mobile Devices*/
+    .animated {
+        /*CSS transitions*/
+        -o-transition-property: none !important;
+        -moz-transition-property: none !important;
+        -ms-transition-property: none !important;
+        -webkit-transition-property: none !important;
+        transition-property: none !important;
+        /*CSS transforms*/
+        -o-transform: none !important;
+        -moz-transform: none !important;
+        -ms-transform: none !important;
+        -webkit-transform: none !important;
+        transform: none !important;
+        /*CSS animations*/
+        -webkit-animation: none !important;
+        -moz-animation: none !important;
+        -o-animation: none !important;
+        -ms-animation: none !important;
+        animation: none !important;
+    }
+
+    .sect-sevices .col-md-3 {
+        padding: 0 15px;
+    }
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+    .slider-nav {
+        top: 100px;
+    }
+    .slide-content {
+        padding-top: 50px;
+    }
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
